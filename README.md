@@ -76,7 +76,7 @@ git config --global user.email "MY_NAME@example.com"
 </body>
 </html>
 ```
-* check status by runing `git status`
+* check status by running `git status`
 * stage the file by running `git add <FILE NAME>`
 * commit the file by running `git commit -m "Init"`
 
