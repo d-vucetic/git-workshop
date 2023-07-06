@@ -3,7 +3,7 @@
 
 
 ## What are we making today:
-![Screenshot from 2023-07-06 09-47-07.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%20from%202023-07-06%2009-47-07.png)
+![workshop.png](docs/workshop.png)
 
 ## Unit 1 - Introduction to Git
 
@@ -65,13 +65,14 @@ git config --global user.email "MY_NAME@example.com"
 - a commit is a snapshot of the repository at a point in time
 - steps to create a commit:
 * create a new file index.html with content:
+
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-</head>
+    <title>Workshop</title></head>
 <body>
-    <h2>Vega IT Git Workshop</h2>
+<h2>Vega IT Git Workshop</h2>
 </body>
 </html>
 ```
@@ -80,7 +81,7 @@ git config --global user.email "MY_NAME@example.com"
 * commit the file by running `git commit -m "Init"`
 
 ### Lesson 6 - Git staging explained
-![git-add.png](..%2F..%2FPictures%2FScreenshots%2Fgit-add.png)
+![git-add.png](docs/git-add.png)
 #### 💡 - Main ideas
 - the staging process allows us to select which files we want to commit (to group commits)
 - to add all changes to a commit you can use `git add .` or `git add --all`
@@ -176,7 +177,7 @@ njinja.png
 #### 📚 - Resources
 
 * [Setup SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-* 
+
 ### Lesson 18 - Pushing changes to a remote repository
 
 #### 💡 - Main ideas
@@ -222,3 +223,7 @@ njinja.png
 
 #### 💡 - Main ideas
 - spend more time practicing the concepts demonstrated until you get used to them
+
+#### 📚 - Addition resources
+
+* [atlassian](https://www.atlassian.com/git/tutorials/)  
